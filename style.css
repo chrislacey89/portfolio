@@ -1,0 +1,121 @@
+
+
+.bg-color-grey {
+  background-color: rgb(220,220,220)
+
+}
+
+
+.floating-box {
+  ;
+  display: inline-block;
+  min-width: 350px;
+ }
+
+.rel-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.prof-img {
+  width: 300px !important;
+  display: block;
+  margin:auto;
+  min-width: 300px;
+
+}
+
+.port-img {
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin:auto;
+}
+
+.dividor{
+border-bottom: 3px solid #262633;
+}
+
+.container {
+  max-width: 90%
+}
+
+.p-border {
+  border-bottom: 4px solid #5D208E;
+}
+
+hr {
+  padding:0
+}
+/*----- Genral Classes start ------*/
+body {
+	background: #2C303C;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.list-unstyled {
+	padding-left: 1em;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+	border-radius: 50%;
+}
+
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color: #3C599F;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color: #070709;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color: #333;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+
+
+.fa-heart {
+  color: #E90606};
